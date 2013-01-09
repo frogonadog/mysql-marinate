@@ -2,18 +2,28 @@ Homework for Chapter 2 of Learning MySQL (2006 edition), from p. 94:
 
 Exercises:
 1) What is command completion?
+Command completion is a feature in Windows that provides an auto complete 
+using partial strings and various keys to save typing
 
 2) What are the relative advantages of installing MySQL using the package,
  directory archive (tarball or "no-install", or compiled methods?
+Packaged based installs usually make installation and configuration easy, 
+as well as being up to date. Compiled installs allow for more customization. 
+Not sure what advantage tarballs provide.
 
 3) How do you verify the integrity of downloaded packages?
+Verification is done with checksums
 
 4) How do you add the MySQL bin directory to the operating system path?
+For Linux/Mac, update the shell config file. For Windows, run the server 
+config program or turn to page 77 and follow the instructions
 
 Additional Exercises (not in the book): 
 1) Document how you installed MySQL and any issues you came across with installation. 
  (The goal is to be easy to install it again on a similar machine.)
+I have had MySQL5.5 on my machine for 6 months. I installed it then using XAMPP. It was simple.
 
 2) Document where important files should be.
+Important files should be on a backup disk, key or online server
 
 Do not forget to do a pull request when your homework is complete.
