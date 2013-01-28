@@ -1,12 +1,15 @@
-1. When would you use a weak entity?
+﻿1. When would you use a weak entity?
+	An entity that has to rely on another entity to be uniquely identified would be a weak entity.  The key of the weak entity would include a foreign key of the entity it is dependant on.
 
 
 2. Is it better to use entities instead of attributes?
+	Not always. An analysis fo the item and it's significance to the database and it's relationship to other items is needed to determine if it should be an entity or an attribute. 
 
 
 3. Alter and extend the music database ER model so that it can store 
 compilations, where a compilation is an album that contains tracks by two 
 or more different artists.
+	see exercise3.png
 
 4. Create an ER diagram for an online media store using the following requirements:
  - There are two types of product: music CDs and video DVDs.
@@ -15,6 +18,7 @@ or more different artists.
    and the price. Also store the number, title, and length (in seconds) 
    of each track on the CD.
  - For each video DVD, store the title the studio name, and the price.
+	see exercise4.png
 
 Tables 4-1 and 4-2 contain some sample data to help you better understand 
 the requirements.
